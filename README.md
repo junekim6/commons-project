@@ -1,8 +1,10 @@
 # Welcome to the Commons Project
 
-This repository contains the code for the main analysis of comments posted on regulations.gov. 
+This repository contains the code for the main analysis of comments posted on regulations.gov.
 
 Commons is an AI-driven tool created to help journalists and researchers better understand public comments on Federal regulation posted on Regulations.gov. It is part of the magic grant project [Commons](https://brown.columbia.edu/portfolio/commons/) funded by the Brown Institute of Media Technology. 
+
+The tool can be accessed at [https://www.commons-project.com/](https://www.commons-project.com/).
 
 ## 1. Project Description
 In the United States, federal agencies have the power to create, amend, and repeal rules, ones that have an enormous impact over the lives of citizens. As part of that process, the broader public is able to comment on proposed regulations before they’re finalized.
@@ -15,6 +17,10 @@ We created Commons to help unlock the wealth of information in comments received
 The repository contains the following folders:
 
 - `data_collection`: A set of scripts to collect data from regulations.gov API. 
+- `data_analysis`: A set of scripts to analyze the data collected from regulations.gov.
+- `requirements.txt`: A list of required packages to run the code.
+- `structure.txt`: A description of the structure of the repository.
+- `.env`: A file to store the API keys and login credentials needed to run the entire code. You need to add your own API keys.
 
 For a complete overview of the repository, please refer to the `structure.txt` file.
 
