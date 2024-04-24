@@ -1,5 +1,7 @@
 # How we chose a model
 
+*The test was conducted on March 28th 2024 by [Laura Bejder Jensen](https://github.com/laurabejder)*
+
 The core of Commons is the data we extract from millions of comments of federal regulations. Its accuracy is critical to the utility of the tool and rests largely on the LLM used to extract it. 
 
 We tested six different models: `Claude-3-haiku`, `Claude-3-Sonnet` and `Claude-3-opus` from Anthropic; `GPT-3.5-turbo` and `GPT-4` from OpenAI; and `Gemini-1.0-pro` from Google. 
