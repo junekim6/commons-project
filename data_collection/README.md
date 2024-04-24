@@ -12,9 +12,14 @@ This directory is split into three main folders: `daily_scrape`, `historical_scr
 
 ## 2. Setup
 
+To run the code, you need to have a multiple valid API kes from regulations.gov. You can request an API key [here](https://open.gsa.gov/api/regulationsgov/).
+
+Because the API has a limit on the number of requests you can make per day, we have multiple API keys that we use to collect data. You can add your own API keys to the `.env` file in the root directory of the repository.
+
 ```bash
 REGGOV_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
+# Daily scrape
 REGGOV_API_KEY_L1 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 REGGOV_API_KEY_L2 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 REGGOV_API_KEY_L3 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
@@ -31,6 +36,8 @@ REGGOV_API_KEY_M3 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 REGGOV_API_KEY_M4 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 REGGOV_API_KEY_M5 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 REGGOV_API_KEY_N1 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Historical scrape
 REGGOV_API_KEY_L00 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 REGGOV_API_KEY_L01 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 REGGOV_API_KEY_L02 = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
