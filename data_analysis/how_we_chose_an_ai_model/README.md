@@ -7,10 +7,7 @@ We tested six different models: `Claude-3-haiku`, `Claude-3-Sonnet` and `Claude-
 The models vary in token price, performance time, rhetorical style and accuracy.
 Choosing the right one came down to a combination of the effectiveness and price of each model.
 
-![Alt text](images/table1.png?raw=true "Optional Title")
-
-
-![Alt text](images/table1.jpeg?raw=true "Optional Title")
+![Alt text](images/table1.png?raw=true)
 
 ### How we tested the models
 To test the accuracy of the models’ outputs we created a random sample of 200 comments from our database. 
