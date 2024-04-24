@@ -9,6 +9,9 @@ Choosing the right one came down to a combination of the effectiveness and price
 
 ![Alt text](images/table1.png?raw=true "Optional Title")
 
+
+![Alt text](images/table1.jpeg?raw=true "Optional Title")
+
 ### How we tested the models
 To test the accuracy of the models’ outputs we created a random sample of 200 comments from our database. 
 We then ran the comments through all six models using the same prompt and guardrails output validation model. All models were asked to return a valid json. 
