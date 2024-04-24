@@ -29,5 +29,9 @@ So how did the models perform?
 False positives occur when the models either start hallucinating, making up information that is not in the comment text or return the examples we gave them (and we clearly told them not to return!). 
 More than anything else, these are the errors we want to avoid.
 
+![Alt text](images/false_positives.png?raw=true)
+
 ### False negatives
 False negatives occur when the model misses information that is provided in the comment. It could either represent a failure to extract information requested in the prompt or to summarize the comment.
+
+![Alt text](images/false_negatives.png?raw=true)
