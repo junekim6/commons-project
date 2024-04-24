@@ -4,7 +4,7 @@ This repository contains the code for the main analysis of comments posted on re
 
 Commons is an AI-driven tool created to help journalists and researchers better understand public comments on Federal regulation posted on Regulations.gov. It is part of the magic grant project [Commons](https://brown.columbia.edu/portfolio/commons/) funded by the Brown Institute of Media Technology. 
 
-The tool can be accessed at [https://www.commons-project.com/](https://www.commons-project.com/).
+The tool can be accessed at [www.commons-project.com](https://www.commons-project.com/).
 
 ## 1. Project Description
 In the United States, federal agencies have the power to create, amend, and repeal rules, ones that have an enormous impact over the lives of citizens. As part of that process, the broader public is able to comment on proposed regulations before they’re finalized.
