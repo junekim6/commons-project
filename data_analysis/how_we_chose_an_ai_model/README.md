@@ -9,6 +9,8 @@ Choosing the right one came down to a combination of the effectiveness and price
 
 ![Alt text](images/table1.png?raw=true)
 
+To be realistic, with the sheer volume of comments we are dealing with, we can only afford `Claude-3-haiku`, `GPT-3.5-turbo` and `Gemini-1.0-pro` but we included the other models in our testing for comparison.
+
 ### How we tested the models
 To test the accuracy of the models’ outputs we created a random sample of 200 comments from our database. 
 We then ran the comments through all six models using the same prompt and guardrails output validation model. All models were asked to return a valid json. 
@@ -17,7 +19,7 @@ We manually divided all values in each json response into the four categories: t
 
 The full output file and the response categorizations can be found in the `model_outputs.csv`.
 
-So how did the models do?
+So how did the models perform?
 
 ## The results
 
