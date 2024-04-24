@@ -12,7 +12,7 @@ This directory is split into three main folders: `daily_scrape`, `historical_scr
 
 ## 2. Setup
 
-To run the code, you need to have a multiple valid API kes from regulations.gov. You can request an API key [here](https://open.gsa.gov/api/regulationsgov/).
+To run the code, you need to have a multiple valid API keys from regulations.gov. You can request the API keys [here](https://open.gsa.gov/api/regulationsgov/).
 
 Because the API has a limit on the number of requests you can make per day, we have multiple API keys that we use to collect data. You can add your own API keys to the `.env` file in the root directory of the repository.
 
