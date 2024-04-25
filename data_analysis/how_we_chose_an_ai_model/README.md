@@ -38,6 +38,9 @@ Precision is the model’s ability to only identify only the relevant data point
 
 Recall is  the model’s ability to find all the relevant cases within our data set ($true positives / true positives + false negatives$). Here it is the balance between correctly extracted data and information the model missed.  
 
+![Alt text](images/table2.png?raw=true)
+
+
 ### False positives
 False positives occur when the models either start hallucinating, making up information that is not in the comment text or return the examples we gave them (and we clearly told them not to return!). 
 More than anything else, these are the errors we want to avoid.
