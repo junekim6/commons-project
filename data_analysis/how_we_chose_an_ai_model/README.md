@@ -24,6 +24,19 @@ The full output file and the response categorizations can be found in the `model
 So how did the models perform?
 
 ## The results
+Not surprisingly, there is a correlation between price and accuracy: The more expensive models perform better. 
+
+But we also saw a difference between the cheapest models with `GPT-3.5-turbo` returning notably more errors than `Claude-3-haiku` and `Gemini-1.0-pro`. Many of those errors were the model failing to provide summaries of the comments. 
+
+[bar chart]
+
+But not all errors are created equal!
+
+We use the terms accuracy (above showed error rate), precision and recall to measure the performance of the model. 
+
+Precision is the model’s ability to only identify only the relevant data points ($true positives / true positives + false positives$). In our case, we want to know how many of the extracted values are true. 
+
+Recall is  the model’s ability to find all the relevant cases within our data set ($true positives / true positives + false negatives$). Here it is the balance between correctly extracted data and information the model missed.  
 
 ### False positives
 False positives occur when the models either start hallucinating, making up information that is not in the comment text or return the examples we gave them (and we clearly told them not to return!). 
