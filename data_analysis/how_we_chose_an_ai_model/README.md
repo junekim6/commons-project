@@ -27,7 +27,7 @@ Not surprisingly, there is a correlation between price and accuracy: The more ex
 
 But we also saw a difference between the cheapest models with `GPT-3.5-turbo` returning notably more errors than `Claude-3-haiku` and `Gemini-1.0-pro`. Many of those errors were the model failing to provide summaries of the comments. 
 
-[bar chart]
+![Alt text](images/bar_chart.png?raw=true)
 
 #### Accuracy, precision and recall
 We use a combination of the models’ accuracy, precision, and recall as a metrics for their overall performance.
