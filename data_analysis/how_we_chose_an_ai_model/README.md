@@ -55,7 +55,7 @@ To answer that question we categorized all comments into a boolean variable `sub
 
 Not surprisingly, it turns out that a lot of the false positive errors could have been prevented if we had only analyzed substantial comments. It appears that many of the instances where the models made up false names, addresses, organizations etc. were when they had little to no text to extract the information we asked for. 
 
-[stacked bar chart]
+![Alt text](images/stacked_bar.png?raw=true)
 
 However, that leaves us with a handful of unexplained errors – especially from Claude-3-haiku. 
 
