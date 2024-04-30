@@ -17,7 +17,7 @@ We created Commons to help unlock the wealth of information in comments received
 The repository contains the following folders:
 
 - `data_collection`: A set of scripts to collect data from regulations.gov API. 
-- `data_analysis`: A set of scripts to analyze the data collected from regulations.gov.
+- `data_analysis`: A set of scripts and notebooks to analyze the data collected from regulations.gov. 
 - `requirements.txt`: A list of required packages to run the code.
 - `structure.txt`: A description of the structure of the repository.
 - `.env`: A file to store the API keys and login credentials needed to run the entire code. You need to add your own API keys.
@@ -31,11 +31,16 @@ To install the required packages, run the following command in the terminal:
 pip install -r requirements.txt
 ```
 
+You also need to create a `.env` file in the root directory of the repository. It should contain the following information:
+
+```bash
+
+```
+
 ## 4. Usage
 To run the code, you need to have a valid API key from regulations.gov. You can request an API key [here]().
 
-
-## x. Contributing
+## 5. Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
