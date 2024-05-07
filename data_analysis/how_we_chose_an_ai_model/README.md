@@ -10,10 +10,12 @@ The models vary in token price, performance time, rhetorical style and accuracy.
 
 ![Alt text](images/table1.png?raw=true)
 
-***Source**: [OpenAI Documentation](https://openai.com/pricing), [Anthropic Documentation](https://docs.anthropic.com/claude/docs/models-overview), [Google Gemini Documentation](https://ai.google.dev/pricing)*
+***Source**: [OpenAI Documentation](https://openai.com/pricing), [Anthropic Documentation](https://docs.anthropic.com/claude/docs/models-overview), [Google Gemini Documentation](https://ai.google.dev/pricing) (As of March 28th, 2024).*
 *The specific models used are: claude-3-haiku-20240307, claude-3-opus-20240229, claude-3-sonnet-20240229, gemini-1.0-pro, gpt-3.5-turbo-1106, gpt-4-1106-preview*
 
 To be realistic, with the sheer volume of comments we are dealing with, we can only afford `Claude-3-haiku`, `GPT-3.5-turbo` and `Gemini-1.0-pro` but we included the other models in our testing for comparison.
+
+**We ended up choosing `Gemini-1.0-pro` as our model of choice. It is the most accurate model in our test and has a reasonable price.**
 
 ### How we tested the models
 To test the accuracy of the models’ outputs we created a random sample of 200 comments from our database. 
