@@ -35,7 +35,7 @@ GEMINI_API_KEY = "xxxxxxxxxxxx"
 
 ### Guardrails
 
-LLMs are not great at returning structured data so we use guardrails to validate the output of the models. 
+LLMs are not great at returning structured data so we use the [Guardrails](https://github.com/guardrails-ai/guardrails) framework to validate the output of the models. 
 
 ```bash
 pip install guardrails-ai

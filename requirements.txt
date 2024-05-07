@@ -3,6 +3,7 @@ botocore==1.33.13
 config==0.5.1
 connectors==4.1
 flatten_json==0.1.14
+guardrails-ai==0.4.0
 jobs==0.0.1dev
 pdfminer.six==20221105
 pdfplumber==0.10.3
